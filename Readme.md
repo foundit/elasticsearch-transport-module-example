@@ -1,4 +1,4 @@
-# Found Elasticsearch Transport client example
+# Found Elasticsearch Transport Module example
 
 To run the example use ``mvn exec:java``:
 

@@ -6,7 +6,7 @@ import com.beust.jcommander.ParameterException;
 import com.beust.jcommander.Parameters;
 import org.elasticsearch.common.logging.ESLogger;
 
-@Parameters(commandDescription = "Shows an example usage of the Found Elasticsearch Transport client.", separators = "=")
+@Parameters(commandDescription = "Shows an example usage of the Found Elasticsearch Transport Module.", separators = "=")
 public class TransportCommandLineParameters {
     @Parameter(names = {"-c", "--cluster-id"}, required = true, description = "Cluster id")
     public String clusterId;
