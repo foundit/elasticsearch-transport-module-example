@@ -33,7 +33,6 @@ public class TransportExample {
             // Create an api key via the console and add it here:
             .put("transport.found.api-key", parameters.apiKey)
 
-                    // Used by Elasticsearch:
             .put("cluster.name", parameters.clusterId)
             .put("client.transport.ignore_cluster_name", false)
 

@@ -6,7 +6,7 @@
     <packaging>jar</packaging>
     <description>elasticsearch-transport-module-example</description>
     <url>https://github.com/foundit/elasticsearch-transport-module-example</url>
-    <version>1.1.19-SNAPSHOT</version>
+    <version>0.8.0-0905</version>
     <licenses>
         <license>
             <name>MIT</name>
@@ -30,19 +30,6 @@
             <url>http://www.found.no</url>
         </developer>
     </developers>
-    <repositories>
-        <repository>
-            <id>sonatype.oss.snapshots</id>
-            <name>Sonatype OSS Snapshot Repository</name>
-            <url>http://oss.sonatype.org/content/repositories/snapshots</url>
-            <releases>
-              <enabled>false</enabled>
-            </releases>
-            <snapshots>
-              <enabled>true</enabled>
-            </snapshots>
-        </repository> 
-    </repositories>
     <dependencies>
         <dependency>
             <groupId>org.elasticsearch</groupId>
@@ -52,7 +39,7 @@
         <dependency>
             <groupId>no.found.elasticsearch</groupId>
             <artifactId>elasticsearch-transport-module</artifactId>
-            <version>1.1.19-SNAPSHOT</version>
+            <version>0.8.0-0905</version>
         </dependency>
         <dependency>
             <groupId>com.beust</groupId>
