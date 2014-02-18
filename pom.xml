@@ -6,7 +6,7 @@
     <packaging>jar</packaging>
     <description>elasticsearch-transport-module-example</description>
     <url>https://github.com/foundit/elasticsearch-transport-module-example</url>
-    <version>0.8.0-0905</version>
+    <version>0.8.3-1000</version>
     <licenses>
         <license>
             <name>MIT</name>
@@ -34,12 +34,12 @@
         <dependency>
             <groupId>org.elasticsearch</groupId>
             <artifactId>elasticsearch</artifactId>
-            <version>0.90.5</version>
+            <version>1.0.0</version>
         </dependency>
         <dependency>
             <groupId>no.found.elasticsearch</groupId>
             <artifactId>elasticsearch-transport-module</artifactId>
-            <version>0.8.0-0905</version>
+            <version>0.8.3-1000</version>
         </dependency>
         <dependency>
             <groupId>com.beust</groupId>
