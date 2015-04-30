@@ -29,7 +29,7 @@ public class TransportExample {
         // Build the settings for our client.
         Settings settings = ImmutableSettings.settingsBuilder()
             // Setting "transport.type" enables this module:
-            .put("transport.type", "no.found.elasticsearch.transport.netty.FoundNettyTransportModule")
+            .put("transport.type", "org.elasticsearch.transport.netty.FoundNettyTransport")
             // Create an api key via the console and add it here:
             .put("transport.found.api-key", parameters.apiKey)
 
