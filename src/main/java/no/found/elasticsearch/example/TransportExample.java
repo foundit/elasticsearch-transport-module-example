@@ -40,8 +40,8 @@ public class TransportExample {
 
         // Instantiate a TransportClient and add Found Elasticsearch to the list of addresses to connect to.
         // Only port 9343 (SSL-encrypted) is currently supported.
-        Client client = new TransportClient(settings)
-            .addTransportAddress(new InetSocketTransportAddress(parameters.clusterId + "-" + parameters.region + ".foundcluster.com", 9343));
+        Client client = new TransportClient(settings).addTransportAddress(new InetSocketTransportAddress(
+                parameters.clusterId + "." + parameters.region + ".aws.found.io", 9343));
 
         while(true) {
             try {
